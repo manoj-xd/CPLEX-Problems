@@ -1,0 +1,17 @@
+/*********************************************
+ * OPL 12.6.0.0 Data
+ * Author: LENOVO
+ * Creation Date: 25-Jul-2020 at 6:12:29 PM
+ *********************************************/
+p =5;
+
+
+SheetConnection Sheet1("data.xlsx");
+ 
+ 
+ 
+gt from SheetRead(Sheet1, "gt");
+
+pr from SheetRead(Sheet1, "pr");
+
+dt from SheetRead(Sheet1, "dt");
